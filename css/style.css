@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 14px;
+    text-align: center; 
+}
+nav a {
+    padding: 5px;
+    cursor: pointer;
+    margin: 5px;
+    color: black; 
+    display: inline-block;  
+}
+nav a:hover {
+    text-decoration: underline;
+    opacity: .70;
+    color: black;
+}
+nav .sign-in {
+    background-color: #4285f4;
+    color: white;
+    font-size: 13px;
+    padding: 7px 10px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 2px;
+    border: 1px solid #4285f4;
+}
+
+nav .sign-in:hover {
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+}
+nav img {
+    width: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.mid {
+    flex: 1;  
+}
+.mid .logo {
+    display:block;
+    margin: 0px auto;
+    margin-top: 107px
+}
+.search-box {
+	width: 580px;
+	margin: 0px auto;
+	position: relative;
+	margin-top: -15px;
+    text-align: center;
+}
+.search-box .search-bar {
+    display: block;
+	border: 1px solid #ddd;
+	color: rgba(0,0,0, 0.87);
+	font-size: 16px;
+	padding: 13px;
+	padding-left: 45px;
+	border-radius: 25px;
+	width: 100%;
+    outline: none;
+    margin-top: 15px;
+}
+.search-box .search {
+    width: 20px;
+    position: absolute;
+    top: 120px;
+    left: 15px;
+    opacity: .4;
+}
+.search-box .voice {
+    width: 14px;
+    position: absolute;
+    top: 120px;
+    right: 15px;
+}
+.s-btn {
+	border: 1px solid transparent;
+	padding: 9px 15px;
+	color: #666;
+	font-size: 14px;
+	border-radius: 4px;
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 28px;
+	outline: none;
+	cursor: pointer;
+    transition: border-color 100ms;
+}
+
+.s-btn:hover {
+    border: 1px solid #aaa;
+}
+
+.lang {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+	color: #111;
+}
+.lang a {
+     margin-left: 5px;
+     color: #1a0dab;
+}
+.lang a:hover {
+    text-decoration: underline;
+}
+footer {
+   background: #f2f2f2;;
+}
+
+footer h4 {
+    color: rgba(0,0,0, 0.54);
+    font-size: 15px;
+    line-height: 39px;
+    font-weight: 400;
+    padding-left: 29px;
+    border: 1px solid #eee;
+}
+footer a {
+    color: #5f6368;
+    display: inline-block;
+    padding: 12px 11.3px;
+	font-size: 14px;
+}
+
+.links {
+    display:flex;
+    border-top: 1px solid #ddd;
+}
+
+.link-1 {
+    flex:1;
+    padding-left: 18px;
+}
+
+.link-2 {
+    padding-right: 18px;
+}
